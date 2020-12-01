@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -60,7 +60,7 @@
       <para>Se não quer controlar cada despesa feita com o cartão de crédito, pode configurar um plano de contas simples, como este:</para>
 
       <literallayout>
--Ativos
+-Activos
    -Banco
 -Passivo
    -Cartão de crédito
@@ -70,7 +70,7 @@
 
       <para>Neste exemplo, insere o montante total gasto com o cartão por mês como uma transação entre <emphasis>Passivo:Cartão 
       de crédito</emphasis> e <emphasis>Despesas:Cartão de crédito</emphasis>. Quando fizer um pagamento, insere uma transação 
-      entre <emphasis>Ativos:Banco</emphasis> e <emphasis>Passivo:Cartão de crédito</emphasis>.</para>
+      entre <emphasis>Activos:Banco</emphasis> e <emphasis>Passivo:Cartão de crédito</emphasis>.</para>
 
       <para>A limitação óbvia desta configuração simplista de cartões de crédito é que não consegue ver para onde vai o dinheiro.  Todas 
       as compras com o cartão são inseridas numa mesma conta de despesa. No entanto, é muito simples configurar e manter este tipo de 
@@ -85,7 +85,7 @@
       e uma conta de despesa específica. Abaixo encontra um exemplo de plano de contas deste tipo:</para>
 
       <literallayout>
--Ativos
+-Activos
     -Banco
 -Passivo
     -Cartão de crédito

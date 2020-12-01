@@ -30,7 +30,7 @@
  <para>Há mais de 20 relatórios padrão pré-preparados no &app;, todos disponíveis 
  no menu <guimenu>Relatórios</guimenu>, na janela principal.</para>
  <table>
- <title>Visão geral dos relatórios - Ativo &amp; Passivo</title>
+ <title>Visão geral dos relatórios - Activo &amp; Passivo</title>
  <tgroup cols="3">
  <tbody>
 
@@ -52,29 +52,29 @@
  <entry><emphasis>-</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
- <entry><emphasis>Ação</emphasis></entry>
+ <entry><emphasis>Acção</emphasis></entry>
  <entry><emphasis>Texto</emphasis></entry>
  </row>
 
  <row>
- <entry><emphasis>Gráfico de barras do ativo</emphasis></entry>
+ <entry><emphasis>Gráfico de barras do activo</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
- <entry><emphasis>Ativo</emphasis></entry>
+ <entry><emphasis>Activo</emphasis></entry>
  <entry><emphasis>Gráfico de barras</emphasis></entry>
  </row>
 
  <row>
- <entry><emphasis>Gráfico circular do ativo</emphasis></entry>
+ <entry><emphasis>Gráfico circular do activo</emphasis></entry>
  <entry><emphasis>-</emphasis></entry>
  <entry><emphasis>-</emphasis></entry>
  <entry><emphasis>-</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
- <entry><emphasis>Ativo</emphasis></entry>
+ <entry><emphasis>Activo</emphasis></entry>
  <entry><emphasis>Gráfico circular</emphasis></entry>
  </row>
 
@@ -85,7 +85,7 @@
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
- <entry><emphasis>Ativo, Passivo</emphasis></entry>
+ <entry><emphasis>Activo, Passivo</emphasis></entry>
  <entry><emphasis>Gráfico de barras</emphasis></entry>
  </row>
 
@@ -101,13 +101,13 @@
  </row>
 
  <row>
- <entry><emphasis>Portfólio de investmentos</emphasis></entry>
+ <entry><emphasis>Portfólio de investimentos</emphasis></entry>
  <entry><emphasis>-</emphasis></entry>
  <entry><emphasis>-</emphasis></entry>
  <entry><emphasis>-</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
- <entry><emphasis>Ação</emphasis></entry>
+ <entry><emphasis>Acção</emphasis></entry>
  <entry><emphasis>Texto</emphasis></entry>
  </row>
 
@@ -140,7 +140,7 @@
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
  <entry><emphasis>S</emphasis></entry>
- <entry><emphasis>Ativo, Passivo, Capital próprio</emphasis></entry>
+ <entry><emphasis>Activo, Passivo, Capital próprio</emphasis></entry>
  <entry><emphasis>Gráfico de barras</emphasis></entry>
  </row>
 

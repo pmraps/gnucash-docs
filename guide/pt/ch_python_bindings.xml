@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter SYSTEM "gnc-docbookx.dtd">
 
 <!-- (Do not remove this comment block.)
@@ -11,45 +11,44 @@ Maintainers:
 Author:
   Mike Evans <mikee@saxicola.co.uk>
 
-    Translators:
-    (translators put your name and email here)
+  Translators:
+               (Pedro Albuquerque <pmra@protonmail.com>)
 -->
 
 <chapter id="ch_python_bindings">
-  <title>Python Bindings</title>
+  <title>Associações Python</title>
   <para>
-    &app; historically has always been a
-    traditional application in the sense that you open it, use it to
-    manipulate your financial data via the windows it presents, save your
-    data and close the windows again. This has the inherent limitation that
-    you can only do whatever the windows, menus and toolbars allow you to do.
+    O &app; historicamente tem sido sempre um
+    aplicação tradicional, no sentido em que a abre, utiliza para
+    manipular os seus dados financeiros através das janelas que apresenta,grava os seus
+    dados e volta a fechar as janelas. Isto tem a limitação inerente de
+    só pode fazer o que as janelas, menus e barras de ferramentas lhe permitem fazer.
   </para>
   <para>
-    Sometimes you might need a little more flexibility. For example, you
-    need a report with just a little different information than what the
-    built-in reports provide, or you want to automate a frequently recurring
-    action. Such custom manipulations are ideal candidates to write in one
-    or the other scripting language.
+    Por vezes pode ser necessária um pouco mais de flexibilidade. Por exemplo,
+    precisam de um relatório com apenas um pouco de informação diferente do que os
+    relatórios incorporados fornecem, ou pretende automatizar uma acção frequentemente
+    recorrente. Tais manipulações personalizadas são candidatos ideais para escrever numa
+    ou noutra linguagem de scripting.
   </para>
   <para>
-    Starting with &app; version 2.4 you can
-    write <application>Python</application> scripts to manipulate your financial data.
+    Começando no &app; versão 2.4 pode escrever scripts
+    <application>Python</application> para manipular os seus dados financeiros.
   </para>
   <note>
-    <para>The <application>Python</application> extensions are an optional feature in the source code.
-      To be able to use <application>Python</application> scripts, &app; must
-      have been compiled with this option enabled, otherwise all what follows
-      won&rsquo;t work. At present this option is not enabled by default, so if you
-      need this, you may have to compile &app; from
-      source yourself.
+    <para>As extensões <application>Python</application> são uma característica opcional no código fonte.
+      Para poder utilizar scripts <application>Python</application>, o &app; deve
+      ser compilado com esta opção activada, caso contrário tudo o que se segue
+      não funcionará. Actualmente, esta opção não está activada por defeito, por isso se
+      precisa disto, poderá ter de compilar o &app; a partir da fonte.
     </para>
   </note>
-  <para>The <application>Python</application> extensions come with a couple of ready to use scripts. This
-    chapter will show you how to use some of these.
+  <para>As extensões <application>Python</application> trazem alguns scripts prontos a usar.
+    Este capítulo mostra-lhe como usar alguns deles.
   </para>
   <note>
-    <para>This chapter is not about how to write your own <application>Python</application> scripts.
-      Refer to the developer documentation for that instead.
+    <para>Este capítulo não é acerca de como escrever os seus próprios scripts <application>Python</application>.
+      Refira-se antes à documentação do programador.
     </para>
   </note>
 </chapter>

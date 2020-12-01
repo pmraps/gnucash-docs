@@ -211,7 +211,7 @@
 
         <listitem>
           <para><emphasis>Desvalorização</emphasis>: o &app; pode calcular a desvalorização de 
-          ativos de capital.</para>
+          activos de capital.</para>
         </listitem>
 
         <listitem>
@@ -230,7 +230,7 @@
         <listitem>
           <para><emphasis>Dupla entrada</emphasis>: cada transação tem de debitar uma conta e creditar outra em montantes iguais. 
           Isto garante o <quote>balanço dos livros</quote> - a diferença entre receitas e despesas é exatamente igual à soma de 
-          todos os ativos, banco, dinheiro, ações, etc..</para>
+          todos os activos, banco, dinheiro, ações, etc..</para>
         </listitem>
 
         <listitem>
@@ -240,8 +240,8 @@
 
         <listitem>
           <para><emphasis>Àrvore de contas</emphasis>: uma conta-mãe pode ter uma hierarquia de contas de detalhe. 
-          Isto permite que contas de tipo similar, tais como Banco, Dinheiro ou Ação, sejam agrupadas numa conta-mãe, tal 
-          como <quote>Ativos</quote>.</para>
+          Isto permite que contas de tipo similar, tais como Banco, Dinheiro ou Acção, sejam agrupadas numa conta-mãe, tal 
+          como <quote>Activos</quote>.</para>
         </listitem>
 
         <listitem>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -233,7 +233,7 @@
   
         <listitem>
           <para>Suponha que agora precisa de levantar dinheiro e não tem uma conta Dinheiro configurada na sua ŕvore de contas. Terá de criar uma. 
-          Crie a conta <guilabel>Dinheiro</guilabel> como conta de topo de tipo <guilabel>Ativo</guilabel>. A partir do diário da <emphasis>Conta 
+          Crie a conta <guilabel>Dinheiro</guilabel> como conta de topo de tipo <guilabel>Activo</guilabel>. A partir do diário da <emphasis>Conta 
           à ordem</emphasis>, insira um levantamento ATM para transferir 100&euro; para a conta <emphasis>Dinheiro</emphasis> a 25 de janeiro.</para>
   
           <screenshot id="cbook-atm">
@@ -415,7 +415,7 @@
         </listitem>
 
         <listitem>
-          <para>Vamos agora ver o relatório de transações correspondente para as contas de ativos.</para>
+          <para>Vamos agora ver o relatório de transações correspondente para as contas de activos.</para>
           <para>Selecione o relatório em <menuchoice><guimenu>Relatórios</guimenu><guimenuitem>Relatório de 
           transações</guimenuitem></menuchoice>.</para>
           
@@ -427,11 +427,11 @@
               </imageobject>
 
               <textobject>
-                <phrase>Relatório de transações para as contas de ativos durante o mês de janeiro de 2016</phrase>
+                <phrase>Relatório de transações para as contas de activos durante o mês de janeiro de 2016</phrase>
               </textobject>
 
               <caption>
-                <para>Esta imagem mostra o relatório de transações para as contas de ativos durante o mês de janeiro de 2016.</para>
+                <para>Esta imagem mostra o relatório de transações para as contas de activos durante o mês de janeiro de 2016.</para>
               </caption>
             </mediaobject>
           </screenshot>

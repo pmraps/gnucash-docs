@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE appendix SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -11,7 +11,7 @@
   		Jon Lapham <lapham@extracta.com.br>
   Originally designed by Carol Champagne.
   Translators:
-               (Pedro Albuquerque <palbuquerque73@gmail.com>)
+               (Pedro Albuquerque <pmra@protonmail.com>)
 -->
  <appendix id="appendixc">
  <title>Planos de contas contribuídos</title>

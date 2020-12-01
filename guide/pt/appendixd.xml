@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE appendix SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -10,7 +10,7 @@
   Author:
                 David Hampton <hampton@employees.org>
   Translators:
-               (translators put your name and email here)
+               (Pedro Albuquerque <pmra@protonmail.com>)
 -->
   <appendix id="appendixd">
     <title>Formatos de ficheiros auxiliares</title>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -26,7 +26,7 @@ Translators:
   <sect1 id="accts-concepts1">
     <title>Conceitos básicos de contabilidade</title>
 
-    <para>Tal como foi dito no capítulo anterior, a contabilidade baseia-se em 5 tipos de contas: <guilabel>Ativo</guilabel>, 
+    <para>Tal como foi dito no capítulo anterior, a contabilidade baseia-se em 5 tipos de contas: <guilabel>Activo</guilabel>, 
     <guilabel>Passivo</guilabel>, <guilabel>Capital próprio</guilabel>, <guilabel>Receita</guilabel> e <guilabel>Despesa</guilabel>. 
     Vamos agora expandir a nossa compreensão sobre estes tipos de conta e mostrar como é que elas são representadas no 
     &app;. Mas primeiro, vamos dividi-las em dois grupos, as contas de folha de balanço por um lado e as 
@@ -36,7 +36,7 @@ Translators:
     <guilabel>Lucros &amp; Prejuízo</guilabel>, que mostra as <emphasis>alterações de valor num dado período de tempo</emphasis>,
     como o ano económico, por exemplo.</para>
 
-    <para>Recordemos a equação contabilística (<emphasis>Ativo - Passivo = Capital próprio + (Receita - Despesa)</emphasis>), 
+    <para>Recordemos a equação contabilística (<emphasis>Activo - Passivo = Capital próprio + (Receita - Despesa)</emphasis>), 
     antes de aprofundarmos cada tipo de conta.</para>
 
     <screenshot id="accts-AccountRelationships">
@@ -65,10 +65,10 @@ Translators:
     <sect2 id="accts-bsa2">
       <title>Contas do balanço</title>
 
-      <para>As três chamadas <emphasis>Contas do balanço</emphasis> são <guilabel>Ativo</guilabel>, <guilabel>Passivo</guilabel>, 
+      <para>As três chamadas <emphasis>Contas do balanço</emphasis> são <guilabel>Activo</guilabel>, <guilabel>Passivo</guilabel>, 
       e <guilabel>Capital própro</guilabel>. As contas de balanço são usadas para controlar aquilo que possui.</para>
 
-      <para><guilabel>Ativo</guilabel> é o grupo de coisas que possui. Os seus ativos incluem um carro, dinheiro, uma casa, ações ou 
+      <para><guilabel>Activo</guilabel> é o grupo de coisas que possui. Os seus activos incluem um carro, dinheiro, uma casa, ações ou 
       qualquer outra coisa que tenha um valor convertível. Valor convertível significa que, teoricamente, pode vender o item por
        dinheiro.</para>
 
@@ -77,7 +77,7 @@ Translators:
       determinada altura.</para>
 
       <para><guilabel>Capital próprio</guilabel> é o mesmo que &quot;valor líquido&quot;. Representa o que sobra depois de 
-      subtrair o seu passivo do seu ativo. Pode ser imaginado como a parte do ativo que está livre de dívidas.</para>
+      subtrair o seu passivo do seu activo. Pode ser imaginado como a parte do activo que está livre de dívidas.</para>
     </sect2>
 
     <sect2 id="accts-ie2">
@@ -90,12 +90,12 @@ Translators:
       <para><guilabel>Receita</guilabel> é o pagamento que recebe pelo seu tempo, serviços prestados ou pelo uso do seu dinheiro. 
       Quando recebe um ordenado, por exemplo, esse ordenado é o pagamento pelo trabalho que fez a um empregador. Outros 
       exemplos de receita serão comissões de vendas, gorjetas, dividendos de ações, juros de depósitos a prazo, etc. As receitas 
-      aumentam sempre o valor dos seus ativos, logo, o valor do capital próprio também aumenta.</para>
+      aumentam sempre o valor dos seus activos, logo, o valor do capital próprio também aumenta.</para>
 
       <para><guilabel>Despesa</guilabel> refere-se a dinheiro que gasta a comprar bens ou serviços prestados por outrém para 
       <emphasis>consumo imediato</emphasis>. Exemplos de despesas são uma refeição no restaurante, a renda de casa, mercearias, 
       gasolina para o carro ou bilhetes de teatro. As despesas diminuem sempre o capital próprio. Se pagar a despesa a pronto, 
-      diminui os ativos, se pagar a despesa com cartão de crédito ou com um empréstimo aumenta o passivo.</para>
+      diminui os activos, se pagar a despesa com cartão de crédito ou com um empréstimo aumenta o passivo.</para>
 <!--
   Translators:
     Your language might have a generic term for 'income and expense'.
@@ -120,9 +120,9 @@ Translators:
     conta</quote> predefinidos do &app;. Há um total de 12 tipos de conta no &app;. 
     Estes 12 tipos de conta são baseados nos 5 tipos contabilísticos básicos. O motivo para haver mais tipos de contas do 
     &app; do que os cinco tipos contabilísticos básicos é permitir ao &app; 
-    controlar e gerir certas contas especializadas. Há seis contas de ativos (<emphasis>Dinheiro</emphasis>, <emphasis>Banco</emphasis>,
-    <emphasis>Ação</emphasis>, <emphasis>Fundo de investimento</emphasis>, <emphasis>C/Cobrável</emphasis> e 
-    <emphasis>Ativo</emphasis>), três contas de passivos (<emphasis>Cartão de crédito</emphasis>, <emphasis>C/Pagável</emphasis> 
+    controlar e gerir certas contas especializadas. Há seis contas de activos (<emphasis>Dinheiro</emphasis>, <emphasis>Banco</emphasis>,
+    <emphasis>Acção</emphasis>, <emphasis>Fundo de investimento</emphasis>, <emphasis>C/Cobrável</emphasis> e 
+    <emphasis>Activo</emphasis>), três contas de passivos (<emphasis>Cartão de crédito</emphasis>, <emphasis>C/Pagável</emphasis> 
     e <emphasis>Passivo</emphasis>), uma conta de capital próprio (<emphasis>Capital próprio</emphasis>), uma conta de receita 
     (<emphasis>Receita</emphasis>) e uma conta de despesa (<emphasis>Despesa</emphasis>).</para>
 
@@ -131,16 +131,16 @@ Translators:
     <sect2 id="accts-gc-bsa2">
       <title>Contas de balanço</title>
 
-      <para>A primeira conta de balanço que vamos examinar é <emphasis>Ativo</emphasis>, que, como se lembra da secção anterior, 
+      <para>A primeira conta de balanço que vamos examinar é <emphasis>Activo</emphasis>, que, como se lembra da secção anterior, 
       se refere a coisas que possui.</para>
 
-      <para>Para ajuda na organização das suas contas de ativos e para simplificar  introdução de transações, o &app; 
-      suporta vários tipos de contas de ativos:</para>
+      <para>Para ajuda na organização das suas contas de activos e para simplificar  introdução de transações, o &app; 
+      suporta vários tipos de contas de activos:</para>
 
       <orderedlist>
         <listitem>
           <para><guilabel>Dinheiro</guilabel> - use esta conta para controlar o dinheiro vivo que tem, seja na carteira, no porquinho 
-          mealheiro, debaixo do colchão ou onde quer que esteja. Este é o tipo de ativo mais <emphasis>líquido</emphasis> ou 
+          mealheiro, debaixo do colchão ou onde quer que esteja. Este é o tipo de activo mais <emphasis>líquido</emphasis> ou 
           facilmente negociável.</para>
         </listitem>
 
@@ -151,20 +151,20 @@ Translators:
         </listitem>
 
         <listitem>
-          <para><guilabel>Ação</guilabel> - controle as suas ações e títulos individuais usando este tipo de conta. O diário de contas Ação 
-          oferece colunas extra para inserir o número de ações e a cotação do seu investimento. Este tipo de ativos pode não ser facilmente 
+          <para><guilabel>Acção</guilabel> - controle as suas ações e títulos individuais usando este tipo de conta. O diário de contas Acção 
+          oferece colunas extra para inserir o número de ações e a cotação do seu investimento. Este tipo de activos pode não ser facilmente 
           convertível em dinheiro, a não ser que encontre um comprador, mas não é garantido que recupere o dinheiro investido.</para>
         </listitem>
 
         <listitem>
-          <para><guilabel>Fundo de investimento</guilabel> - semelhante às contas Ação, só que é usada para monitorizar fundos. 
+          <para><guilabel>Fundo de investimento</guilabel> - semelhante às contas Acção, só que é usada para monitorizar fundos. 
           O diário de conta exibe as mesmas colunas extra para quantidade e cotação dos fundos. Os fundos representam a propriedade 
           de ações numa variedade de investimentos e, tal como as ações, não oferecem garantias de valor investido.</para>
         </listitem>
 
         <listitem>
           <para><guilabel>C/Cobrável</guilabel> - esta é tipicamente uma conta só para negócios, onde coloca pagamentos que a empresa 
-          tem a receber. É considerado um ativo porque poderá contar com a entrada destes fundos.</para>
+          tem a receber. É considerado um activo porque poderá contar com a entrada destes fundos.</para>
           
           <para>Transações envolvendo uma conta C/Cobrável não devem ser adicionadas, alteradas ou eliminadas por nenhum outro meio 
           que não seja:</para>
@@ -176,8 +176,8 @@ Translators:
 	</listitem>
 
         <listitem>
-          <para><guilabel>Ativo</guilabel> - não importa quão diversas sejam, o &app; gere muitas
-          outras situações facilmente. A categoria <quote>Ativo</quote> cobre todos os ativos não listados acima.</para>
+          <para><guilabel>Activo</guilabel> - não importa quão diversas sejam, o &app; gere muitas
+          outras situações facilmente. A categoria <quote>Activo</quote> cobre todos os activos não listados acima.</para>
 
           <para>Contas são repositórios de informação, usados para controlar ou registar o tipo de ações que ocorrem relacionadas 
           com o propósito para que a conta foi definida.</para>
@@ -187,7 +187,7 @@ Translators:
            <xref linkend="chapter_other_assets"/> deste guia.</para>
 
           <para>Para finanças pessoais, uma pessoa pode seguir os agrupamentos para negócios ou não, conforme sejam ou não 
-          úteis para controlar as atividades de cada um e o tipo de relatórios que sejam necessários para gerir os seus ativos 
+          úteis para controlar as atividades de cada um e o tipo de relatórios que sejam necessários para gerir os seus activos 
           financeiros. Para informação adicional, consulte o capítulo <xref linkend="chapter_other_assets"/> deste guia.</para>
         </listitem>
       </orderedlist>
@@ -228,13 +228,13 @@ Translators:
       </orderedlist>
 
       <tip>
-        <para>Em contabilidade, o passivo atua de maneira oposta ao ativo: <emphasis>créditos</emphasis> (entradas na coluna direita) 
+        <para>Em contabilidade, o passivo atua de maneira oposta ao activo: <emphasis>créditos</emphasis> (entradas na coluna direita) 
         aumentam o saldo de contas do passivo e os <emphasis>débitos</emphasis> (entradas na coluna esquerda) diminuem-no. (veja 
         a nota mais adiante neste capítulo)</para>
       </tip>
 
       <para>A última conta do balanço é <emphasis>Capital próprio</emphasis>, que é sinónimo de <quote>valor líquido</quote>. 
-      Representa o valor que sobra depois de subtrair o seu passivo do seu ativo, ou seja, é a parte dos seus bens que possui realmente, 
+      Representa o valor que sobra depois de subtrair o seu passivo do seu activo, ou seja, é a parte dos seus bens que possui realmente, 
       sem dever nada. No &app;, use este tipo de conta como origem dos seus saldos bancários iniciais, 
       porque estes saldos representam o seu valor líquido inicial.</para>
 
@@ -247,8 +247,8 @@ Translators:
       </tip>
 
       <note>
-        <para>A equação contabilística que liga as contas de balanço é Ativo = Passivo + Capital próprio ou, rearranjada, 
-        Ativo - Passivo = Capital próprio. Ou seja, em linguagem corrente, <emphasis>aquilo que é seu</emphasis> menos 
+        <para>A equação contabilística que liga as contas de balanço é Activo = Passivo + Capital próprio ou, rearranjada, 
+        Activo - Passivo = Capital próprio. Ou seja, em linguagem corrente, <emphasis>aquilo que é seu</emphasis> menos 
         <emphasis>aquilo que deve</emphasis> é igual ao seu <emphasis>valor líquido</emphasis>.</para>
       </note>
     </sect2>
@@ -344,7 +344,7 @@ Translators:
     <sect2 id="accts-examples-toplevel2">
       <title>As contas básicas de topo</title>
 
-      <para>Agora, tem de decidir como quer agrupar essas contas. Muito provavelmente, quererá os seus <emphasis>Ativos</emphasis> 
+      <para>Agora, tem de decidir como quer agrupar essas contas. Muito provavelmente, quererá os seus <emphasis>Activos</emphasis> 
       num grupo, o seu <emphasis>Passivo</emphasis> noutro, o seu <emphasis>Capital próprio</emphasis> noutro, a sua 
       <emphasis>Receita</emphasis> noutro, e a sua <emphasis>Despesa</emphasis> noutro. Esta é a forma mais comum de construir 
       uma árvore de contas do &app; e é altamente recomendável que comece um ficheiro sempre assim.</para>
@@ -362,7 +362,7 @@ Translators:
 
       <orderedlist>
         <listitem>
-          <para>Nome de conta <guilabel>Ativos</guilabel> (Tipo de conta <guilabel>Ativo</guilabel>, Conta-mãe <guilabel>Nova conta de
+          <para>Nome de conta <guilabel>Activos</guilabel> (Tipo de conta <guilabel>Activo</guilabel>, Conta-mãe <guilabel>Nova conta de
           topo</guilabel>)</para>
 
           <screenshot id="accts-CreateAssetsAccounts">
@@ -373,11 +373,11 @@ Translators:
                 </imageobject>
 
                 <textobject>
-                  <phrase>Criação de uma conta de ativos</phrase>
+                  <phrase>Criação de uma conta de activos</phrase>
                 </textobject>
 
                 <caption>
-                  <para>Esta imagem mostra o diálogo para criar uma conta de ativos</para>
+                  <para>Esta imagem mostra o diálogo para criar uma conta de activos</para>
                 </caption>
               </mediaobject>
             </screenshot>
@@ -439,16 +439,16 @@ Translators:
       </tip>
         <orderedlist>
           <listitem>
-            <para>Nome de conta <guilabel>Dinheiro</guilabel> (Tipo de conta <guilabel>Dinheiro</guilabel>, Conta-mãe <emphasis>Ativos</emphasis>)
+            <para>Nome de conta <guilabel>Dinheiro</guilabel> (Tipo de conta <guilabel>Dinheiro</guilabel>, Conta-mãe <emphasis>Activos</emphasis>)
             </para>
           </listitem>
 
           <listitem>
-            <para>Nome de conta <guilabel>Conta à ordem</guilabel> (Tipo de conta <guilabel>Banco</guilabel>, Conta-mãe <emphasis>Ativos</emphasis>)</para>
+            <para>Nome de conta <guilabel>Conta à ordem</guilabel> (Tipo de conta <guilabel>Banco</guilabel>, Conta-mãe <emphasis>Activos</emphasis>)</para>
           </listitem>
 
           <listitem>
-            <para>Nome de conta <guilabel>Conta poupança</guilabel> (Tipo de conta <guilabel>Banco</guilabel>, Conta-mãe <emphasis>Ativos</emphasis>)</para>
+            <para>Nome de conta <guilabel>Conta poupança</guilabel> (Tipo de conta <guilabel>Banco</guilabel>, Conta-mãe <emphasis>Activos</emphasis>)</para>
           </listitem>
 
           <listitem>

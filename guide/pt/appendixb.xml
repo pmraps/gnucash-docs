@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE appendix SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -13,7 +13,7 @@
   		Jon Lapham <lapham@extracta.com.br>
   Originally designed by Carol Champagne.
   Translators:
-               (Pedro Albuquerque <palbuquerque73@gmail.com)
+               (Pedro Albuquerque <pmra@protonmail.com)
 -->
 <appendix id="appendixb">
   <title>Questões frequentes</title>
@@ -25,7 +25,7 @@
 
     <qandaentry id="appendixb_info_where">
       <question><para>Onde estão as FAQ?</para></question>
-      <answer><para>Está a olhar para elas. Pode encontrar a cópia mais atualizada na
+      <answer><para>Está a olhar para elas. Pode encontrar a cópia mais actualizada na
           <ulink url="&url-wiki-faq;">wiki do &app;</ulink>.</para></answer>
     </qandaentry>
 
@@ -66,26 +66,26 @@
       <question><para>Ouvi dizer que era muito díficl compilar o &app;!</para></question>
       <answer><para>Isto foi provavelmente verdade quando a versão 1.6.0 foi lançada. Hoje em dia já não é 
       verdade, dado que a maioria das ditribuições Linux já têm todas as bibliotecas necessárias 
-      (exceto a g-wrap, ou seja, há realmente <quote>uma</quote> biblioteca extra a instalar antes de 
+      (excepto a g-wrap, ou seja, há realmente <quote>uma</quote> biblioteca extra a instalar antes de 
       compilar o &app;). Contudo, por predefinição, as distribuições não 
       instalam pacotes de desenvolvimento das bibliotecas requeridas, pelo que poderá ter que iniciar 
       o programa de instalação da sua distribuição e dizer-lhe que instale também as bibliotecas de 
-      desenvolvimento (-devel). Em geral, notou-se que este problema afeta muitas aplicações no domínio 
-      Gnome, o que se reduz ao fato de que não há efetivamente algo como <quote>um pacote gnome 
+      desenvolvimento (-devel). Em geral, notou-se que este problema afecta muitas aplicações no domínio 
+      Gnome, o que se reduz ao facto de que não há efectivamente algo como <quote>um pacote gnome 
       monolítico</quote>.</para></answer>
     </qandaentry>
 
     <qandaentry id="appendixb_general_batchmode">
       <question><para>Há algum modo de o &app; construir relatórios em lote, de forma 
-      não interativa?</para></question>
-      <answer><para>Não, por agora o &app; tem de usar interatividade.</para></answer>
+      não interactiva?</para></question>
+      <answer><para>Não, por agora o &app; tem de usar interactividade.</para></answer>
     </qandaentry>
 
     <qandaentry id="appendixb_general_multuser">
       <question><para>Pode o mesmo ficheiro de dados do &app; ser acedido por múltiplas 
       pessoas?</para></question>
       <answer><para>Pode ter múltiplas pessoas com acesso ao mesmo ficheiro de dados, mas não em simultâneo.</para>
-      <para>Para configurar o acesso multiutilizador, todos terão de ter direitos de leitura/escrita na pasta 
+      <para>Para configurar o acesso mult-iutilizador, todos terão de ter direitos de leitura/escrita na pasta 
       que contém o ficheiro (para ler os ficheiros criados por outros e para criar novos ficheiros). 
       Uma forma de o fazer é criar um grupo de utilizadores e definir a pasta de dados como propriedade 
       partilhada do grupo, definida para modo 2775. O <quote>2</quote> torna a pasta setgid, o que copia as 
@@ -108,17 +108,17 @@
       que eu possa contribuir facilmente?</para></question>
       <answer><para>A resposta rápida é <quote>Não o faremos</quote>. A resposta mais longa é complexa mas é a 
       mesma. O &app; é um enorme corpo de código mantido por um pequeno 
-      grupo de programadores que se sentem confotáveis com C e Scheme (Guile). De fato, 80% é em C 
+      grupo de programadores que se sentem confotáveis com C e Scheme (Guile). De facto, 80% é em C 
       e aproximadamente 13% é em Scheme/Lisp. Não há nenhuma razão válida que justifique reescrever a quantidade 
       de código existente numa linguagem diferente. Além disso, criar associações de linguagem a linguagens 
       recentes como Python ou Ruby ou qualquer outra da sua preferência é trabalho intenso e já temos trabalho 
       que chegue mantendo e desenvolvendo o código existente.</para></answer>
-      <answer><para>Dito isto, este é um projeto de código aberto e é livre de fazer o que quiser ou de contribuir 
+      <answer><para>Dito isto, este é um projecto de código aberto e é livre de fazer o que quiser ou de contribuir 
       com aquilo que quiser. Mas não espere assistência se o motivo das suas alterações for não estar 
       disposto a aprender C ou Scheme. Além disto, o &app; costumava ter 
       associações SWIG (<ulink url="http://www.swig.org" />) que foram usadas por algum código programado 
       em perl. De acordo com uma discussão na lista, estas associações SWIG podem ainda ser uma forma de incluir 
-      outras linguagens no &app;, embora atualmente não sejam usadas nem 
+      outras linguagens no &app;, embora actualmente não sejam usadas nem 
       mantidas.</para></answer>
     </qandaentry>
 
@@ -145,7 +145,7 @@
     </qandaentry>
 
     <qandaentry id="appendixb_software_contribute">
-      <question><para>Como é que posso contribuir para o projeto do &app;?</para></question>
+      <question><para>Como é que posso contribuir para o projecto do &app;?</para></question>
       <answer><para>Estamos a trabalhar num processo mais formal, mas para já, pode subscrever as listas de 
       correio em 
       <ulink url="&url-mail-li;gnucash-user" /> e em 
@@ -157,11 +157,11 @@
     </qandaentry>
 
     <qandaentry id="appendixb_software_bugs">
-      <question><para>Penso que encontrei um erro. Como é que o reporto?</para></question>
-      <answer><para>Primeiro, tente verificar se é realmente um erro e se ainda não foi reportado. Procure 
+      <question><para>Penso que encontrei um erro. Como é que o relato?</para></question>
+      <answer><para>Primeiro, tente verificar se é realmente um erro e se ainda não foi relatado. Procure
       nos arquivos de correio (veja a FAQ acima). Depois procure na base de dados do  
       <ulink url="&url-bug-start;">Bugzilla do &appname;</ulink>.</para>
-      <para>Se achar que realmente encontrou um novo erro, pode reportá-lo em 
+      <para>Se achar que realmente encontrou um novo erro, pode relatá-lo em 
       <ulink url="&url-bug-start;" />. Lembre-se de ser eloquente 
       e claro. Tente aprender como deve informar os programadores a reproduzir o erro. Um programador só 
       consegue reparar um erro que consiga ver, se não o conseguir ver, o erro não será reparado.!</para></answer>
@@ -172,25 +172,25 @@
     <title>Usando o &app;</title>
 
     <qandaentry id="appendixb_using_moveAtoB">
-      <question><para>Como é que posso mover transações da conta <quote>A</quote> para a conta <quote>B</quote>, 
+      <question><para>Como é que posso mover transacções da conta <quote>A</quote> para a conta <quote>B</quote>, 
       ou seja, combinando-as?</para></question>
       <answer><para>De momento, o &app; não oferece uma forma de mover grupos de 
       parcelas entre contas. Terá de as mover uma a uma. Abra o diário da conta <quote>A</quote> e 
-      selecione <menuchoice><guimenu>Ver</guimenu><guimenuitem>Diário de transações</guimenuitem></menuchoice> 
+      seleccione <menuchoice><guimenu>Ver</guimenu><guimenuitem>Diário de transacções</guimenuitem></menuchoice> 
       para ver todas as parcelas. Para cada parcela onde o campo <quote>Conta</quote> mostrar conta
       <quote>A</quote> altere para conta <quote>B</quote>. Para o fazer rapidamente e com segurança, 
       primeiro use <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo> para copiar o nome da conta 
       destino (<quote>conta B</quote>) para a área de transferência. Em seguida, realce cada referência à 
       conta <quote>A</quote> com um duplo clique e use <keycombo><keycap>Ctrl</keycap><keycap>V</keycap>
       </keycombo> para colar o nome da conta destino. Premindo <keycap function="enter">Enter</keycap> 
-      após cada colagem, move a transação para fora do diário silenciosamente.</para>
+      após cada colagem, move a transacção para fora do diário silenciosamente.</para>
       <caution><para>Se definir o campo <quote>Conta</quote> para uma localização errada 
-      inadvertidamente, terá de procurar em todas as contas para localizar a transação perdida para 
+      inadvertidamente, terá de procurar em todas as contas para localizar a transacção perdida para 
       corrigir o erro.</para></caution></answer>
     </qandaentry>
 
     <qandaentry id="appendixb_using_merge2files">
-      <question><para>É possível unir dois ficheiro do &app;?</para></question>
+      <question><para>É possível unir dois ficheiros do &app;?</para></question>
       <answer><para>De momento não.</para></answer>
     </qandaentry>
 
@@ -210,10 +210,10 @@
     </qandaentry>
 
     <qandaentry id="appendixb_using_Dates">
-      <question><para>Como posso registar uma transação em datas diferentes (data real e data do banco)?</para></question>
-      <answer><para>Regista a transação no dia em que passa o cheque ou inicia a transação. Quando 
+      <question><para>Como posso registar uma transacção em datas diferentes (data real e data do banco)?</para></question>
+      <answer><para>Regista a transacção no dia em que passa o cheque ou inicia a transacção. Quando 
       <quote>chegar</quote> ao banco, pode clicar no campo <quote>R</quote>  para <quote>confirmar</quote> 
-      a transação (altera <quote>nc</quote> para <quote>c</quote>).</para></answer>
+      a transacção (altera <quote>nc</quote> para <quote>c</quote>).</para></answer>
     </qandaentry>
   </qandadiv>
 

@@ -63,7 +63,7 @@
       </varlistentry>
 
       <varlistentry>
-        <term><emphasis>Ação comum</emphasis></term>
+        <term><emphasis>Acção comum</emphasis></term>
         <listitem>
           <para>É uma mercadoria que representa a propriedade de pequena fração de uma empresa. 
           é o que obtém quando <quote>compra ações</quote> de uma companhia no mercado aberto. 
@@ -126,8 +126,8 @@
         <term><emphasis>Ganhos/Perdas realizados vs não realizados</emphasis></term>
         <listitem>
           <para>Ganhos ou perdas não realizados ocorrem quando tem uma alteração na cotação 
-              de um ativo. Na realidade, realiza ganhos ou perdas quando efetivamente vende 
-              um ativo. Veja também <emphasis>Ganhos/Perdas de capital</emphasis>.</para>
+              de um activo. Na realidade, realiza ganhos ou perdas quando efetivamente vende 
+              um activo. Veja também <emphasis>Ganhos/Perdas de capital</emphasis>.</para>
         </listitem>
       </varlistentry>
 
@@ -232,18 +232,18 @@
         </listitem>
 
         <listitem>
-          <para><emphasis>Ativos fixos</emphasis></para>
+          <para><emphasis>Activos fixos</emphasis></para>
 
-          <para>Ativos que aumentam de valor ao longo do tempo são outra forma de investimento. 
+          <para>Activos que aumentam de valor ao longo do tempo são outra forma de investimento. 
           São exemplos uma casa, um terreno, ou uma pintura valiosa. Neste tipo de investimento 
           só se consegue determinar o valor real após a venda. As implicações tributárias da venda 
           destes itens variam, dependendo do item. Por exemplo, pode ter benefícios fiscais se vender 
           uma casa, se for a sua residência primária, mas isto pode não acontecer se vender uma 
           pintura valiosa.</para>
 
-          <para>Investimentos em ativos fixos são discutidos em <xref linkend="chapter_capgain" /> e 
+          <para>Investimentos em activos fixos são discutidos em <xref linkend="chapter_capgain" /> e 
           <xref linkend="chapter_dep" />. Tipicamente, não há muito a fazer em termos contabilísticos 
-          com investimentos em ativos fixos exceto registar as transações de compra e venda.</para>
+          com investimentos em activos fixos exceto registar as transações de compra e venda.</para>
         </listitem>
       </itemizedlist>
     </sect2>
@@ -306,7 +306,7 @@
       </screenshot>
 
       <para>Provavelmente quererá adicionar pelo menos uma conta <emphasis>Banco</emphasis> 
-      aos Ativos e eventualmente uma conta <emphasis>Capital próprio:Saldos inicias</emphasis>, 
+      aos Activos e eventualmente uma conta <emphasis>Capital próprio:Saldos inicias</emphasis>, 
       tal como fizémos em capítulos anteriores. Não se esqueça de gravar o seu novo ficheiro 
       com um nome relevante!</para>
     </sect2>
@@ -316,7 +316,7 @@
 
       <para>Se quer criar as suas próprias contas de investimento, é claro que o pode fazer. 
       Os investimentos normalmente têm associado um número de contas que têm de ser criadas: 
-      uma conta de ativos para o investimeto em si mesmo, uma conta de receita para as transações 
+      uma conta de activos para o investimeto em si mesmo, uma conta de receita para as transações 
       de dividendos e contas de despesa para taxas de investimento e comissões.</para>
     </sect2>
 
@@ -329,7 +329,7 @@
       comparar os extratos que recebe com as suas contas no &app; e 
       detetar onde o &app; difere dos extratos.
  <literallayout>
- Ativos
+ Activos
     Investimentos
        Contas da corretora
           Eu*Negoceio
@@ -340,7 +340,7 @@
              Dinheiro
           Meu corretor
              Fundos do mercado mobiliário
-                Fundo de ativos
+                Fundo de activos
              Títulos do Tesouro
                 Título OT xxx
                 Nota OT yyy
@@ -398,13 +398,13 @@
     <sect2 id="invest_intacct2">
         <title>Configuração das contas</title>
 
-      <para>Quando compra o investimento remunerado, tem de criar uma conta de ativos para registar essa 
+      <para>Quando compra o investimento remunerado, tem de criar uma conta de activos para registar essa 
       compra, uma conta de receita para registar os ganhos em juros e uma conta de despesa para registar 
       as taxas bancárias. Abaixo está uma disposição exemplo de contas, na qual tem uma conta poupança 
       remunerada e um certificado de depósito no seu banco.</para>
 
       <literallayout>
-Ativos
+Activos
    Banco ABC
       Certificado de depósito
       Conta poupança
@@ -546,25 +546,25 @@ Receita
       introduzida na secção anterior, mas os princípios podem ser aplicados a qualquer hierarquia de 
       contas.</para>
 
-      <para>Deverá ter dentro da conta de topo <guilabel>Ativos</guilabel>, alguns níveis abaixo, 
-      uma conta chamada <guilabel>Ação</guilabel>. Expanda a árvore de contas até este nível, 
+      <para>Deverá ter dentro da conta de topo <guilabel>Activos</guilabel>, alguns níveis abaixo, 
+      uma conta chamada <guilabel>Acção</guilabel>. Expanda a árvore de contas até este nível, 
       clicando no <quote>triângulo virado à direita</quote> à esquerda dos nomes de conta até que 
-      a árvore esteja expandida até à nova conta. Terá de criar uma subconta (de tipo <emphasis>Ação</emphasis>)
+      a árvore esteja expandida até à nova conta. Terá de criar uma subconta (de tipo <emphasis>Acção</emphasis>)
       para cada ação que possua. Cada ação real é uma conta separada. A nomenclatura destas contas de 
       ações é normalmente feita de acordo com o símbolo de mercado, embora os nomes das contas possam 
       ser qualquer coisa que seja clara para si e outros utilizadores. Assim, por exemplo, pode chamar 
       às suas contas <emphasis>AMZN</emphasis>, <emphasis>IBM</emphasis> e <emphasis>NST</emphasis> 
       para as sua ações na Amazon, na IBM e na NSTAR, respetivamente. Abaixo está o modelo esquemático 
-      da disposição, só com as subcontas de Ativos.</para>
+      da disposição, só com as subcontas de Activos.</para>
 
       <literallayout>
- Ativos
+ Activos
     Investimentos
        Contas na corretora
           Obrigação
           Fundos de investimento
           Índice de mercado
-          Ação
+          Acção
              AMZN
              IBM
              NST
@@ -878,7 +878,7 @@ Receita
 
       <para>A única diferença entre configurar uma compra de novas ações e configurar ações pré-
       existentes é que em vez de transferir dinheiro da conta <emphasis>Capital próprio:Saldos 
-      iniciais</emphasis>, transfere-o da conta <emphasis>Ativos:Banco ABC</emphasis>.</para>
+      iniciais</emphasis>, transfere-o da conta <emphasis>Activos:Banco ABC</emphasis>.</para>
 
       <para>Agora vamos comprar 5.000&euro; de ações IBM, com uma comissão de 100&euro;. O primeiro passo 
       será criar a conta de ações IBM. A conta existente <emphasis>Despesas:Comissões</emphasis> será 
@@ -890,7 +890,7 @@ Receita
       e valor de compra (5.000&euro;). Não precisa de preencher a coluna <guilabel>Ações</guilabel>, 
       ela será calculada por si. A linha seguinte da transação será a <emphasis>compra</emphasis> de 
       <emphasis>Despesas:Comissões</emphasis>, no valor de 100&euro;. A terceira linha será a transferência 
-      da conta <emphasis>Ativos:Banco ABC:Conta poupança</emphasis>, como <emphasis>venda</emphasis> no 
+      da conta <emphasis>Activos:Banco ABC:Conta poupança</emphasis>, como <emphasis>venda</emphasis> no 
       valor de 5.100&euro;, para saldar a transação. O diário da sua mercadoria IBM deve parecer-se com 
       isto:</para>
 
@@ -973,10 +973,10 @@ Receita
               <para>Um de: <guilabel>Compra</guilabel> (o preço para comprar no mercado), 
               <guilabel>Venda</guilabel> (o preço para vender no mercado), 
               <guilabel>Última</guilabel> (a cotação na última transação), 
-              <guilabel>Valor líquido do ativo</guilabel> (cotação do fundo mutualista por ação), 
+              <guilabel>Valor líquido do activo</guilabel> (cotação do fundo mutualista por ação), 
               ou <guilabel>Desconhecido</guilabel>. Ações e moedas normalmente têm as cotações como 
               Compra, Venda ou Última. Os fundos mutualistas são muitas vezes avaliados como valor 
-              líquido do ativo. Para outras mercadorias, escolha simplesmente 
+              líquido do activo. Para outras mercadorias, escolha simplesmente 
               <guilabel>Desconhecido</guilabel>. Isto é só para informação, não é usado pelo 
               &app;.</para>
             </listitem>
@@ -1018,7 +1018,7 @@ Receita
       novamente, mesmo que utilize a mesma mercadoria noutra conta.</para>
 
       <note>
-        <para>Se ativou a obtenção de cotações online (veja <xref linkend="invest-stockprice-auto2"></xref>), 
+        <para>Se activou a obtenção de cotações online (veja <xref linkend="invest-stockprice-auto2"></xref>), 
         pode inicializar uma mercadoria sem fazer uma entrada manual. Quando inicialmente adiciona a 
         mercadoria ao <guilabel>Editor de mercadorias</guilabel>, marque a opção <guibutton>Obter cotações 
         online</guibutton> e grave a mercadoria. Depois, na <guilabel>Base de dados de cotações</guilabel>, 
@@ -1158,7 +1158,7 @@ Receita
         /dev/null 2&gt;&amp;1</para>
 
         <para>Lembre-se que as <quote>cotações</quote> dos fundos mutualistas são realmente 
-        <quote>valores líquidos dos ativos (NAV)</quote> e precisam de várias horas após o fecho dos 
+        <quote>valores líquidos dos activos (NAV)</quote> e precisam de várias horas após o fecho dos 
         mercados para estarem disponíveis. Se já tinha transferido <acronym>NAV</acronym>s antes dos 
         <acronym>NAV</acronym>s do dia de hoje estarem determinados, são usados os <acronym>NAV</acronym>s 
         de ontem.</para>
@@ -1206,7 +1206,7 @@ Receita
     <sect2 id="invest-stockprice-report">
       <title>Selecionar a <quote>origem da cotação</quote> em relatórios de valor das ações</title>
 
-      <para>A maioria dos relatórios de ativos do &app; têm opções para 
+      <para>A maioria dos relatórios de activos do &app; têm opções para 
       definir/modificar vários parâmetros. A janela de opções é mostrada selecionando o separador do 
       relatório e clicando em <guibutton>Opções</guibutton> na <emphasis>barra de menu</emphasis> ou 
       selecionando <menuchoice><guimenu>Editar</guimenu><guimenuitem>Opções do relatório</guimenuitem></menuchoice>.  
@@ -1215,7 +1215,7 @@ Receita
       determinar a cotação das ações nos relatórios:</para>
        <note>
          <para>No exemplo abaixo, o relatório é uma personalização do <emphasis role="strong">Saldo 
-             Médio</emphasis> no submenu <guilabel>Ativo &amp; Passivo</guilabel> dos 
+             Médio</emphasis> no submenu <guilabel>Activo &amp; Passivo</guilabel> dos 
              <guilabel>Relatórios</guilabel>.</para>
        </note>
       <screenshot id="invest-stockvalue-report-options">
@@ -1262,7 +1262,7 @@ Receita
           </imageobject>
 
           <textobject>
-            <phrase>Gráfico de barras dos ativos baseado  na fonte de cotação <guilabel>Mais 
+            <phrase>Gráfico de barras dos activos baseado  na fonte de cotação <guilabel>Mais 
                 próxima no tempo</guilabel>.</phrase>
           </textobject>
 
@@ -1284,7 +1284,7 @@ Receita
     <para>O registo apropriado da venda de ações *tem* de ser feito usando uma transação com 
     parcelas. Nesta, tem de contar com o lucro (ou prejuízo) como vindo de uma conta 
     <emphasis>Receitas:Ganhos de capital</emphasis> (ou <emphasis>Despesas:Perdas de capital</emphasis>). 
-    Para saldar esta receita, tem de inserir o ativo em ações duas vezes. Uma para registar a venda real 
+    Para saldar esta receita, tem de inserir o activo em ações duas vezes. Uma para registar a venda real 
     (usando o número correto de ações e cotação correta por ação) e outra para saldar o lucro recebido 
     (definindo o número de ações para 0 e o preço por ação para 0).</para>
 
@@ -1324,7 +1324,7 @@ Receita
           </row>
 
           <row>
-            <entry>Ativos:Banco ABC</entry>
+            <entry>Activos:Banco ABC</entry>
 
             <entry></entry>
 
@@ -1336,7 +1336,7 @@ Receita
           </row>
 
           <row>
-            <entry>Ativos:Ação:SÍMBOLO</entry>
+            <entry>Activos:Acção:SÍMBOLO</entry>
 
             <entry>0</entry>
 
@@ -1360,7 +1360,7 @@ Receita
           </row>
 
           <row>
-            <entry>Ativos:Ação:SÍMBOLO</entry>
+            <entry>Activos:Acção:SÍMBOLO</entry>
 
             <entry>-NUM_AÇÕES</entry>
 
@@ -1424,7 +1424,7 @@ Receita
             </row>
 
             <row>
-              <entry>Ativos:Banco ABC</entry>
+              <entry>Activos:Banco ABC</entry>
 
               <entry></entry>
 
@@ -1436,7 +1436,7 @@ Receita
             </row>
 
             <row>
-              <entry>Ativos:Conta na corretora:Ação:AMZN</entry>
+              <entry>Activos:Conta na corretora:Acção:AMZN</entry>
 
               <entry>0</entry>
 
@@ -1460,7 +1460,7 @@ Receita
             </row>
 
             <row>
-              <entry>Ativos:Conta na corretora:Ação:AMZN</entry>
+              <entry>Activos:Conta na corretora:Acção:AMZN</entry>
 
               <entry>-100</entry>
 
@@ -1560,7 +1560,7 @@ Receita
             </row>
 
             <row>
-              <entry>Ativos:Banco ABC</entry>
+              <entry>Activos:Banco ABC</entry>
 
               <entry></entry>
 
@@ -1572,7 +1572,7 @@ Receita
             </row>
 
             <row>
-              <entry>Ativos:Conta na corretora:Ação:IBM</entry>
+              <entry>Activos:Conta na corretora:Acção:IBM</entry>
 
               <entry>0</entry>
 
@@ -1596,7 +1596,7 @@ Receita
             </row>
 
             <row>
-              <entry>Ativos:Conta na corretora:Ação:IBM</entry>
+              <entry>Activos:Conta na corretora:Acção:IBM</entry>
 
               <entry>-51,7598</entry>
 
@@ -1682,7 +1682,7 @@ Receita
       <sect2 id="invest-dividendcash">
         <title>Dividendos em dinheiro</title>
 
-      <para>Se o dividendo for pago em dinheiro, deve registar a transação na conta do ativo que 
+      <para>Se o dividendo for pago em dinheiro, deve registar a transação na conta do activo que 
       recebeu o dinheiro, como receita de <emphasis>Receitas:Dividendos</emphasis>. Adicionalmente, 
       se quiser ligar o dividendo em dinheiro a uma ação em particular, junte uma parcela fictícia 
       à conta da ação com quantidade 0, preço 1 e valor 0.</para>
@@ -1799,7 +1799,7 @@ Receita
 
       <para>O primeiro ecrã é uma introdução, clique em <guibutton>Avançar</guibutton> para ver a 
       seleção de contas de ações para desdobrar. Terá de criar uma entrada para cada 
-      <emphasis>Conta:Ação</emphasis> que possua.</para>
+      <emphasis>Conta:Acção</emphasis> que possua.</para>
 
       <screenshot id="invest-split2">
         <mediaobject>
@@ -1817,7 +1817,7 @@ Receita
       </screenshot>
 
 
-      <para>Selecione <emphasis>Ativos:Investimentos:DRIPs:NST</emphasis> e clique 
+      <para>Selecione <emphasis>Activos:Investimentos:DRIPs:NST</emphasis> e clique 
       em <guibutton>Avançar</guibutton>.</para>
 
       <para>No ecrã seguinte tem 5 campos disponíveis:</para>
@@ -1905,7 +1905,7 @@ Receita
             <phrase>Exemplo de desdobramento simples de ações no diário de conta da ação</phrase>
           </textobject>
 
-          <caption><para>Diário da conta <emphasis>Ativos:Investimentos:DRIPs:NST</emphasis>
+          <caption><para>Diário da conta <emphasis>Activos:Investimentos:DRIPs:NST</emphasis>
           após uma transação de desdobramento simples de ações. </para></caption>
         </mediaobject>
       </screenshot>
@@ -1930,7 +1930,7 @@ Receita
 
       <para>O processo para inserir esta transação é idêntico ao desdobramento simples até ao ecrã 
       <quote>Detalhes</quote>. Tem de criar uma entrada separada para cada combinação de <emphasis>Conta 
-      de investimento:Ação</emphasis> que tenha desdobramento de ações.</para>
+      de investimento:Acção</emphasis> que tenha desdobramento de ações.</para>
 
       <screenshot id="invest-merge2">
         <mediaobject>
@@ -1949,7 +1949,7 @@ Receita
       </screenshot>
 
 
-      <para>Selecione<emphasis>Ativos:Investimentos:Conta na corretora:Ação:T</emphasis> e clique em 
+      <para>Selecione<emphasis>Activos:Investimentos:Conta na corretora:Acção:T</emphasis> e clique em 
       <guibutton>Avançar</guibutton>.</para>
 
       <para>No ecrã seguinte tem 5 campos disponíveis:</para>

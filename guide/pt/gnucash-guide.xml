@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -15,7 +15,7 @@
   Maintainers:
         Gnucash Development Team <gnucash-devel@gnucash.org>
   Translators:
-               (Pedro Albuquerque <palbuquerque73@gmail.com>)
+               (Pedro Albuquerque <pmra@protonmail.com>)
 -->
 <book id="index" lang="pt-PT"
       xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -355,17 +355,17 @@
 </bookinfo>
 
 <preface>
-  <title>About the Author</title>
+  <title>Acerca do autor</title>
   <para>
- 	The GnuCash Documentation Team is a self-designated
-	group of GnuCash users and developers who have volunteered to
-	write this documentation for the benefit of the broader user
-	base. People who are interested in joining this group are
-	encouraged to express their interest on the GnuCash lists
-	(gnucash-users and gnucash-devel) for further direction.
+ 	A equipa de documentação GnuCash é um auto-designado	grupo 
+ 	de utilizadores e programadores do GnuCash que se voluntariaram para
+	escrever esta documentação em benefício de uma base de utilizadores 
+	mais ampla. Quem tiver interesse em se juntar a este grupo é 
+	encorajado a expressar o seu interesse nas listas GnuCash
+	(gnucash-user e gnucash-devel) para uma melhor direcção.
   </para>
 
-  <para>Contributors on the team so far have been:
+  <para>Quem tem contribuído até agora:
     <othercredit role="translator">
      <firstname>Pedro</firstname> <surname>Albuquerque</surname>
      <contrib>European Portuguese translation</contrib>

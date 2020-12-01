@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -42,7 +42,7 @@
       <variablelist>
       <title>Tipos de contas</title>
         <varlistentry>
-          <term><emphasis>Ativo</emphasis></term>
+          <term><emphasis>Activo</emphasis></term>
           <listitem>
             <para>Aquilo que possui</para>
           </listitem>
@@ -78,7 +78,7 @@
       </variablelist>
 
       <para>Está claro que se pode categorizar o seu mundo financeiro nestes 5 grupos. Por exemplo, o dinheiro na 
-      sua conta bancária é um ativo, o seu crédito à habitação é um passivo, o seu salário é uma receita e o jantar fora 
+      sua conta bancária é um activo, o seu crédito à habitação é um passivo, o seu salário é uma receita e o jantar fora 
       da noite passada é uma despesa.</para>
     </sect2>
 
@@ -86,20 +86,20 @@
       <title>A equação contabilística</title>
 
       <para>Com 5 contas básicas definidas, qual é a relação entre elas? Como é que um tipo de conta afeta as outras? 
-      Primeiro, o capital próprio é definido pelo ativo e pelo passivo. Ou seja, o seu valor líquido é calculado subtraindo 
-      o seu passivo do seu ativo:</para>
+      Primeiro, o capital próprio é definido pelo activo e pelo passivo. Ou seja, o seu valor líquido é calculado subtraindo 
+      o seu passivo do seu activo:</para>
 
-      <para><emphasis>Ativo - Passivo = Capital próprio</emphasis></para>
+      <para><emphasis>Activo - Passivo = Capital próprio</emphasis></para>
 
       <para>Para além disto, pode aumentar o seu capital próprio com receitas e diminui-lo com despesas. Isto faz sentido, 
       claro. Quando recebe o seu salário fica mais <quote>rico</quote> e quando paga o jantar fica mais <quote>pobre</quote>. 
       Isto é expresso matematicamente por aquilo que é conhecido como a equação contabilística:</para>
 
-      <para><emphasis>Ativo - Passivo = Capital próprio + (Receita - Despesa)</emphasis></para>
+      <para><emphasis>Activo - Passivo = Capital próprio + (Receita - Despesa)</emphasis></para>
 
       <para>Esta equação tem de estar sempre equilibrada, uma condição que só pode ser satisfeita se inserir valores em 
-      múltiplas contas. Por exemplo, se receber dinheiro na forma de receita, tem de ver um aumento igual no seu ativo. 
-      Outro exemplo, pode ter um aumento no ativo se tiver um aumento paralelo no passivo.</para>
+      múltiplas contas. Por exemplo, se receber dinheiro na forma de receita, tem de ver um aumento igual no seu activo. 
+      Outro exemplo, pode ter um aumento no activo se tiver um aumento paralelo no passivo.</para>
 
       <figure pgwide="1">
         <title>As relações básicas entre contas</title>
@@ -141,11 +141,11 @@
       <para>Equilibrar alterações (ou transferir dinheiro) entre contas é feito debitando uma conta e, simultaneamente, 
       creditando outra. <firstterm>Débitos</firstterm> e <firstterm>Créditos</firstterm> contabilísticos não significam 
       <quote>decréscimo</quote> e <quote>acréscimo</quote>. Tanto os débitos como os créditos aumentam certas contas 
-      e diminuem outras. Em contas de ativos e despesas, os débitos aumentam o saldo e os créditos diminuem-no. Nas contas 
+      e diminuem outras. Em contas de activos e despesas, os débitos aumentam o saldo e os créditos diminuem-no. Nas contas 
       de passivo, capital próprio e receita, os créditos aumentam o saldo e os débitos diminuem-no.</para>
       
       <para>Na contabilidade tradicional de dupla entrada, a coluna esquerda do diário é usada para débitos, enquanto a 
-      coluna direita é usada para créditos. Os contabilistas registam aumentos do ativo e despesas na coluna dos débitos 
+      coluna direita é usada para créditos. Os contabilistas registam aumentos do activo e despesas na coluna dos débitos 
       (esquerda) e aumentos do passivo e capital próprio e receitas nos créditos (direita). O &app; 
       segue esta convenção nos diários.</para> 
       
@@ -161,7 +161,7 @@
         <para>A utilização comum das palavras <emphasis>débito</emphasis> e <emphasis>crédito</emphasis> não corresponde 
         à forma como os contabilistas usam estes termos. Em termos comuns, <emphasis>crédito</emphasis> tem uma associação 
         positiva. Em contabilidade, <emphasis>crédito</emphasis> significa <emphasis>afetar a coluna direita</emphasis> 
-        de um diário de conta. Isto é associado a um <emphasis>decréscimo</emphasis> no ativo e nas despesas, mas a um 
+        de um diário de conta. Isto é associado a um <emphasis>decréscimo</emphasis> no activo e nas despesas, mas a um 
         <emphasis>acréscimo</emphasis> de receita, passivo e capital próprio.</para>
         <para>Para mais detalhes, veja <ulink url="&url-wp-pt;Débito_e_crédito">Débitos e créditos</ulink>.</para>
       </warning>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter SYSTEM "gnc-docbookx.dtd">
 
 <!--
@@ -73,8 +73,8 @@
     e outra em dólares de Hong Kong. Uma estrutura de contas possível seria:</para>
 
     <literallayout>
--Ativos                          (USD)
-   -Ativos atuais                (USD)
+-Activos                          (USD)
+   -Activos atuais                (USD)
       -Banco americano           (USD)
       -Banco europeu             (EUR)
       -Banco de Hong Kong        (HKD)
@@ -134,12 +134,12 @@
 
       <para>Vamos supor que quer controlar PontosGasolina, que contam quantos pontos de fidelização 
       já ganhou por abastecer sempre no mesmo fornecedor de gasolina. A conta para tal seria 
-      <emphasis>Ativos:Outros:FidelizaçãoPontosGasolina</emphasis>.</para>
+      <emphasis>Activos:Outros:FidelizaçãoPontosGasolina</emphasis>.</para>
 
       <para>O primeiro método é definir uma nova mercadoria, de tipo <guilabel>FUNDO</guilabel>,
       chamada PontosGasolina. Isto é bastante simples quando cria a nova conta 
       <emphasis>FidelizaçãoPontosGasolina</emphasis>, simplesmente defina o tipo de conta como 
-      <guilabel>Ação</guilabel> ou <guilabel>Fundo de investimento</guilabel>, clique em 
+      <guilabel>Acção</guilabel> ou <guilabel>Fundo de investimento</guilabel>, clique em 
       <guibutton>Selecionar...</guibutton>, ao lado do campo <guilabel>Garantia/Moeda:</guilabel> e 
       clique em <guibutton>Novo</guibutton> para definir uma nova mercadoria de tipo 
       <guilabel>FUNDO</guilabel>.</para>
@@ -148,7 +148,7 @@
       &app; normalmente permite-lhe decidir como é que o quer usar, em vez 
       de lhe impôr uma utilização. O lado mau é que terá de inserir uma <quote>cotação</quote> para cada 
       transação envolvendo PontosGasolina, porque o &app; precisa de 
-      cotações para calcular o valor monetário de PontosGasolina e tratá-los como um dos seus ativos..</para>
+      cotações para calcular o valor monetário de PontosGasolina e tratá-los como um dos seus activos..</para>
 
       <para>O segundo método é usar uma das moedas <quote>fictícias</quote> para controlar 
       PontosGasolina. As moedas fictícias são <quote>XTS (código para efeitos de testes)</quote> e 
@@ -389,7 +389,7 @@
     <para>O resto desta secção explicará mais sobre o método 2).</para>
 
     <sect2 id="currency_purchase2">
-      <title>Compra de um ativo com moeda estrangeira</title>
+      <title>Compra de um activo com moeda estrangeira</title>
 
       <para>A sua residência habitual é no Algarve, portanto usa EUR como moeda predefinida. Mas, 
       gosta de passar umas férias nas Bahamas e ir à pesca. Gosta tanto que decidiu comprar lá um barco. 
@@ -400,11 +400,11 @@
       contas:</para>
 
       <literallayout>
--Ativos                      (USD)
-   -Ativos atuais            (USD)
+-Activos                      (USD)
+   -Activos atuais            (USD)
       -Banco europeu         (USD)
       -banco jamaicano       (JMD)
-   -Ativos fixos             (USD)
+   -Activos fixos             (USD)
       -Barco                 (JMD)
 -Capital próprio             (USD)
    -Saldos iniciais 
@@ -469,8 +469,8 @@
 
       <para>Encontra o barco e, como é uma pechincha de JMD 509.000. decide comprá-lo. Para registar 
       esta transação no &app;, tem de inserir uma transação simples em 
-      <emphasis>Ativos:Ativos atuais:Banco jamaicano</emphasis>, levantando 509.000 J e transferindo-os 
-      para <emphasis>Ativos:Ativos fixos:Barco</emphasis></para>
+      <emphasis>Activos:Activos atuais:Banco jamaicano</emphasis>, levantando 509.000 J e transferindo-os 
+      para <emphasis>Activos:Activos fixos:Barco</emphasis></para>
 
       <screenshot id="currency_purchase_AfterBoat.png">
         <mediaobject>
@@ -487,7 +487,7 @@
         </mediaobject>
       </screenshot>
       <para>A árvore de contas agora reflete que a sua conta bancária viu o valor reduzido em 509.000 J 
-      e os seus ativos fixos aumentados no mesmo valor. Se tiver ativa a coluna "Total (EUR)" verá os 
+      e os seus activos fixos aumentados no mesmo valor. Se tiver ativa a coluna "Total (EUR)" verá os 
       montantes correspondentes em euro. Este valor vai usar sempre a última taxa de câmbio que atualizou 
       manual ou automaticamente no &app;.</para>
     </sect2>
@@ -524,8 +524,8 @@
           seguinte estrutura de contas:</para>
 
       <literallayout>
-Ativos:Investimentos:Conta na corretora:Boom:0694.HK     (Beijing Airport)
-Ativos:Investimentos:Conta na corretora:Boom:Banco        (HKD)
+Activos:Investimentos:Conta na corretora:Boom:0694.HK     (Beijing Airport)
+Activos:Investimentos:Conta na corretora:Boom:Banco        (HKD)
 Capital próprio:Saldos iniciais:HKD                            (HKD)
 Despesas:Comissões:Boom.0694.HK                      (HKD)
 Receitas:Investimentos:Dividendos:Boom:0694.HK               (HKD)
@@ -568,18 +568,18 @@ Receitas:Investimentos:Dividendos:Boom:0694.HK               (HKD)
       </screenshot>
 
       <para>Se ainda não moveu HKD 50.000 para a conta na corretora 
-      (<emphasis>Ativos:Investimentos:Conta na corretora:Boom:Banco</emphasis>), faça-o agora, 
+      (<emphasis>Activos:Investimentos:Conta na corretora:Boom:Banco</emphasis>), faça-o agora, 
       usando a conta de capital próprio (HKD), ou uma conta bancária já existente (transferência 
       de dinheiro).</para>
 
       <para>Vamos presumir que a cotação de cada ação é de HKD 3. Para registar a compra, abra a 
-      conta na corretora HKD (<emphasis>Ativos:Investimentos:Conta na corretora:Boom:Banco</emphasis>) 
+      conta na corretora HKD (<emphasis>Activos:Investimentos:Conta na corretora:Boom:Banco</emphasis>) 
       e insira o seguinte:</para>
 <literallayout>
 Compra de ações
-	Ativos:Investimentos:Conta na corretora:Boom:Banco  Levantamento 50.000
+	Activos:Investimentos:Conta na corretora:Boom:Banco  Levantamento 50.000
 	Despesas:Investimentos:Comissão:Boom:HKD	Depósito 500
-	Ativos:Investimentos:Conta na corretora:Boom:0694  Depósito 49,500 (16,500 shares)
+	Activos:Investimentos:Conta na corretora:Boom:0694  Depósito 49,500 (16,500 shares)
 </literallayout>
 
       <para>Se o diálogo de taxa de câmbio não abrir automaticamente, clique com o botão direito do rato 
@@ -632,7 +632,7 @@ Compra de ações
          diário da conta de ações, mas tenha cautela! Ao fazê-lo dessa forma, presume-se que a ação 
          está cotada na moeda da conta-mãe da conta de ações.</para>
          
-        <para>Neste exemplo, a conta-mãe da conta de ações (<emphasis>Ativos:Investimentos:Conta na 
+        <para>Neste exemplo, a conta-mãe da conta de ações (<emphasis>Activos:Investimentos:Conta na 
          corretora:Boom</emphasis>) está em HKD. Dado que esta é a mesma moeda da cotação da ação, a 
          compra pode ser registada no diário da conta de ações sem problemas.</para>
       </note>
@@ -653,15 +653,15 @@ Compra de ações
     <para>Se não está interessado em detalhes, é suficiente uma estrutura de contas bastante simples:</para>
 
     <literallayout>
-    Ativos:Investimentos:Moeda:Banco (USD)
-    Ativos:Investimentos:Moeda:XXX (XXX)</literallayout>
+    Activos:Investimentos:Moeda:Banco (USD)
+    Activos:Investimentos:Moeda:XXX (XXX)</literallayout>
 
     <para>Mas, se quiser ser capaz de controlar ganhos ou perdas de capital, assim como as várias taxas, 
     tem de criar uma disposição um pouco mais complexa:</para>
 
     <literallayout>
-    Ativos:Investimentos:Moeda:Banco                    (USD)
-    Ativos:Investimentos:Moeda:Banco da moeda:XXX       (XXX)
+    Activos:Investimentos:Moeda:Banco                    (USD)
+    Activos:Investimentos:Moeda:Banco da moeda:XXX       (XXX)
     Despesas:Investimentos:Moeda:Banco da moeda:XXX     (XXX)
     Receitas:Investimentos:Banco da moeda:Ganhos de capital:XXX  (XXX)</literallayout>
 
@@ -670,7 +670,7 @@ Compra de ações
     <sect2 id="currency_invest12">
       <title>Comprar um investimento em moeda</title>
 
-      <para>Uma ordem de compra típica seria algo como isto, visto da conta <emphasis>Ativos:Investimentos:
+      <para>Uma ordem de compra típica seria algo como isto, visto da conta <emphasis>Activos:Investimentos:
       Moeda:Banco</emphasis>.</para>
 
       <para><table>
@@ -687,7 +687,7 @@ Compra de ações
               </row>
 
               <row>
-                <entry>Ativos:Investimentos:Moeda:Banco</entry>
+                <entry>Activos:Investimentos:Moeda:Banco</entry>
 
                 <entry></entry>
 
@@ -703,7 +703,7 @@ Compra de ações
               </row>
 
               <row>
-                <entry>Ativos:Investimentos:Moeda:XXX</entry>
+                <entry>Activos:Investimentos:Moeda:XXX</entry>
 
                 <entry>Montante investido - Despesa de câmbio</entry>
 
@@ -729,11 +729,11 @@ Compra de ações
       <para>A venda correta de moeda *tem* de ser feita usando uma transação com parcelas. Nesta, tem 
       de contabilizar o lucro (ou perda) como vindo da conta <emphasis>Receitas:Ganhos de capital</emphasis> 
       (ou <emphasis>Despesas:Perdas de capital</emphasis>). Para saldar esta receita, terá de inserir o 
-      ativo Moeda duas vezes na transação. Uma para registar a venda real (com o montante e taxa de câmbio 
+      activo Moeda duas vezes na transação. Uma para registar a venda real (com o montante e taxa de câmbio 
       corretos) e outra para saldar o lucro (definindo o montante como 0).</para>
 
       <para>Resumindo, uma transação de venda de Moeda deve parecer-se com isto, de novo visto da conta 
-      <emphasis>Ativos:Investimentos:Moeda:Banco</emphasis>:</para>
+      <emphasis>Activos:Investimentos:Moeda:Banco</emphasis>:</para>
 
       <table>
         <title>Vender um investimento em moeda estrangeira com um esquema de transação com parcelas</title>
@@ -749,7 +749,7 @@ Compra de ações
             </row>
 
             <row>
-              <entry>Ativos:Investimentos:Moeda:Banco</entry>
+              <entry>Activos:Investimentos:Moeda:Banco</entry>
 
               <entry>Montante vendido - Despesa de câmbio</entry>
 
@@ -765,7 +765,7 @@ Compra de ações
             </row>
 
             <row>
-              <entry>Ativos:Investimentos:Moeda:XXX</entry>
+              <entry>Activos:Investimentos:Moeda:XXX</entry>
 
               <entry></entry>
 
@@ -781,7 +781,7 @@ Compra de ações
             </row>
 
             <row>
-              <entry>Ativos:Investimentos:Moeda:XXX</entry>
+              <entry>Activos:Investimentos:Moeda:XXX</entry>
 
               <entry>LUCRO (com Montante de destino = 0)</entry>
 
@@ -887,7 +887,7 @@ Compra de ações
       de detalhes de receitas e despesas, pode usar a seguinte hierarquia de contas:</para>
 
       <literallayout>
-Ativos:Ativos atuais:Conta poupança         (AUD)
+Activos:Activos atuais:Conta poupança         (AUD)
       </literallayout>
 
       <para></para>
@@ -909,7 +909,7 @@ Capital próprio:Herança (AUD)
       </literallayout>
 
 
-      <para>As transações que inserir na conta <emphasis>Ativos:Ativos atuais:Conta poupança</emphasis>
+      <para>As transações que inserir na conta <emphasis>Activos:Activos atuais:Conta poupança</emphasis>
       devem parecer-se com isto:</para>
 
       <table>
@@ -971,7 +971,7 @@ Capital próprio:Herança (AUD)
       (com um depósito de 50.000).</para>
 
       <literallayout>
-Ativos:Ativos fixos:Casa                  (AUD) 300.000
+Activos:Activos fixos:Casa                  (AUD) 300.000
 Passivo:Empréstimos:Hipoteca                 (AUD) 250.000
 Despesas:Juros:Juros da hipoteca        (AUD)
 Capital próprio:Saldo inicial                     (AUD) 50.000
@@ -979,7 +979,7 @@ Capital próprio:Saldo inicial                     (AUD) 50.000
 
       <para>Após ter uma breve conversa com o banco do crédito à habitação, eles concordaram em 
       receber o pagamento total do crédito, mais alguns juros (AUD 30.000). Deve inserir a 
-      seguinte transação com parcelas na conta <emphasis>Ativos:Ativos fixos:Casa</emphasis>.</para>
+      seguinte transação com parcelas na conta <emphasis>Activos:Activos fixos:Casa</emphasis>.</para>
 
       <table>
           <title>Pagamento do crédito à habitação</title>
@@ -995,7 +995,7 @@ Capital próprio:Saldo inicial                     (AUD) 50.000
               </row>
 
               <row>
-                <entry>Ativos:Ativos atuais:Conta poupança</entry>
+                <entry>Activos:Activos atuais:Conta poupança</entry>
 
                 <entry></entry>
 
@@ -1051,12 +1051,12 @@ Capital próprio:Saldo inicial                     (AUD) 50.000
       <para>As contas necessárias para controlar estes investimentos são as seguintes:</para>
 
       <literallayout>
-Ativos:Investimentos:Corretor sueco:ERIC.ST                 (AÇÃO ERIC.ST Yahoo)
-Ativos:Investimentos:Corretor sueco:Banco                    (SEK)
-Ativos:Investimentos:Corretor HK:0694.HK                      (AÇÃO 0694.HK Yahoo)
-Ativos:Investimentos:Corretor HK:Banco                         (HKD)
-Ativos:Investimentos:Corretor EUA:AMZN                         (AÇÃO AMZN Nasdaq)
-Ativos:Investimentos:Corretor EUA:Banco                         (USD)
+Activos:Investimentos:Corretor sueco:ERIC.ST                 (AÇÃO ERIC.ST Yahoo)
+Activos:Investimentos:Corretor sueco:Banco                    (SEK)
+Activos:Investimentos:Corretor HK:0694.HK                      (AÇÃO 0694.HK Yahoo)
+Activos:Investimentos:Corretor HK:Banco                         (HKD)
+Activos:Investimentos:Corretor EUA:AMZN                         (AÇÃO AMZN Nasdaq)
+Activos:Investimentos:Corretor EUA:Banco                         (USD)
 Despesas:Investimentos:Comissões:Corretor sueco:ERIC.ST   (SEK)
 Despesas:Investimentos:Comissões:Corretor HK:0694.HK        (HKD)
 Despesas:Investimentos:Comissões:Corretor EUA:AMZN           (USD)
@@ -1066,7 +1066,7 @@ Despesas:Investimentos:Transferência de dinheiro                    (AUD)
       <para>Decide investir 100.000 AUD em cada empresa e para tal, tem de fazer uma transação 
       de moeda para cada uma das contas bancárias associadas à ação.</para>
 
-      <para>A transação que insere na sua conta <emphasis>Ativos:Ativos atuais:Conta 
+      <para>A transação que insere na sua conta <emphasis>Activos:Activos atuais:Conta 
       poupança</emphasis> fica assim:</para>
 
       <table>
@@ -1088,7 +1088,7 @@ Despesas:Investimentos:Transferência de dinheiro                    (AUD)
             </row>
 
             <row>
-              <entry>Ativos:Investimentos:Corretor sueco:Banco</entry>
+              <entry>Activos:Investimentos:Corretor sueco:Banco</entry>
 
               <entry>100.000</entry>
 
@@ -1100,7 +1100,7 @@ Despesas:Investimentos:Transferência de dinheiro                    (AUD)
             </row>
 
             <row>
-              <entry>Ativos:Investimentos:Corretor HK:Banco</entry>
+              <entry>Activos:Investimentos:Corretor HK:Banco</entry>
 
               <entry>100.000</entry>
 
@@ -1112,7 +1112,7 @@ Despesas:Investimentos:Transferência de dinheiro                    (AUD)
             </row>
 
             <row>
-              <entry>Ativos:Investimentos:Corretor EUA:Banco</entry>
+              <entry>Activos:Investimentos:Corretor EUA:Banco</entry>
 
               <entry>100.000</entry>
 
@@ -1224,13 +1224,13 @@ Despesas:Investimentos:Transferência de dinheiro                    (AUD)
 
       <para>
         <literallayout>
-Ativos:Dinheiro que me devem:Euro:José da Esquina            (Euro)
+Activos:Dinheiro que me devem:Euro:José da Esquina            (Euro)
 Receitas:Juros Receitas:José da Esquina                  (Euro)
 Despesas:Taxa bancária                      (AUD)
         </literallayout>
       </para>
       <para>Esta é uma transação simples de moeda a partir da sua conta poupança para a conta 
-      <emphasis>Ativos:Dinheiro que me devem:José da Esquina</emphasis> (EURO). Obteve a taxa 
+      <emphasis>Activos:Dinheiro que me devem:José da Esquina</emphasis> (EURO). Obteve a taxa 
       de câmbio de 0.606161, o que significa que tem de levantar AUD 65,989.10. Assim como tem de 
       pagar a taxa de serviço no valor de 35 AUD.</para>
     </sect2>
@@ -1264,8 +1264,8 @@ Despesas:Taxa bancária                      (AUD)
 Passivo:Empréstimos:Empréstimo japonês             (JPY)
 Despesas:Juros:Empréstimo japonês                  (JPY)
 Despesas:Taxas da hipoteca:Empréstimo japonês      (JPY)
-Ativos:Ativos atuais:Banco japonês                 (JPY)
-Ativos:Ativos fixos:Casa na NZ                     (NZ)
+Activos:Activos atuais:Banco japonês                 (JPY)
+Activos:Activos fixos:Casa na NZ                     (NZ)
 </literallayout>
 
       <table>
@@ -1282,7 +1282,7 @@ Ativos:Ativos fixos:Casa na NZ                     (NZ)
               </row>
 
               <row>
-                <entry>Ativos:Ativos fixos:Casa na NZ</entry>
+                <entry>Activos:Activos fixos:Casa na NZ</entry>
 
                 <entry>300.000 (NZD)</entry>
 
@@ -1290,7 +1290,7 @@ Ativos:Ativos fixos:Casa na NZ                     (NZ)
               </row>
 
               <row>
-                <entry>Ativos:Ativos atuais:Conta poupança</entry>
+                <entry>Activos:Activos atuais:Conta poupança</entry>
 
                 <entry></entry>
 
